@@ -1,6 +1,5 @@
-
-import { Badge } from '@/components/ui/badge';
-import Icon from '@/components/ui/icon';
+import { Badge } from "@/components/ui/badge";
+import Icon from "@/components/ui/icon";
 
 export default function Story() {
   return (
@@ -15,87 +14,124 @@ export default function Story() {
             <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-tapiola-gray-dark mb-4">
               От карельских лесов до вашей чашки
             </h2>
-            
+
             <div className="space-y-6 text-tapiola-brown">
               <p>
-                История «Тапиолы» началась в 2018 году, когда семья Карповых, потомственные знатоки карельских трав, решили поделиться уникальными рецептами травяных сборов, передававшимися из поколения в поколение.
+                История «Тапиолы» началась в 2018 году, когда семья Карповых,
+                потомственные знатоки карельских трав, решили поделиться
+                уникальными рецептами травяных сборов, передававшимися из
+                поколения в поколение.
               </p>
               <p>
-                Название «Тапиола» взято из карело-финской мифологии и означает «лесное царство», что отражает нашу глубокую связь с природой Карелии. Мы собираем травы в экологически чистых районах, следуя лунному календарю и древним традициям.
+                Название «Тапиола» взято из карело-финской мифологии и означает
+                «лесное царство», что отражает нашу глубокую связь с природой
+                Карелии. Мы собираем травы в экологически чистых районах, следуя
+                лунному календарю и древним традициям.
               </p>
               <p>
-                Каждый этап производства – от сбора до упаковки – осуществляется с особой заботой. Мы не используем искусственные ароматизаторы или добавки, сохраняя все полезные свойства карельских трав.
+                Каждый этап производства – от сбора до упаковки – осуществляется
+                с особой заботой. Мы не используем искусственные ароматизаторы
+                или добавки, сохраняя все полезные свойства карельских трав.
               </p>
-              
+
               <div className="pt-4">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="text-center">
                     <div className="bg-tapiola-cream rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
-                      <Icon name="CalendarDays" className="text-tapiola-green-dark" size={28} />
+                      <Icon
+                        name="CalendarDays"
+                        className="text-tapiola-green-dark"
+                        size={28}
+                      />
                     </div>
-                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">5+</div>
+                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">
+                      5+
+                    </div>
                     <div className="text-tapiola-brown text-sm">лет опыта</div>
                   </div>
-                  
+
                   <div className="text-center">
                     <div className="bg-tapiola-cream rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
-                      <Icon name="Users" className="text-tapiola-green-dark" size={28} />
+                      <Icon
+                        name="Users"
+                        className="text-tapiola-green-dark"
+                        size={28}
+                      />
                     </div>
-                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">10k+</div>
+                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">
+                      10k+
+                    </div>
                     <div className="text-tapiola-brown text-sm">клиентов</div>
                   </div>
-                  
+
                   <div className="text-center">
                     <div className="bg-tapiola-cream rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
-                      <Icon name="LeafyGreen" className="text-tapiola-green-dark" size={28} />
+                      <Icon
+                        name="LeafyGreen"
+                        className="text-tapiola-green-dark"
+                        size={28}
+                      />
                     </div>
-                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">15+</div>
+                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">
+                      15+
+                    </div>
                     <div className="text-tapiola-brown text-sm">видов трав</div>
                   </div>
-                  
+
                   <div className="text-center">
                     <div className="bg-tapiola-cream rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
-                      <Icon name="ShoppingBag" className="text-tapiola-green-dark" size={28} />
+                      <Icon
+                        name="ShoppingBag"
+                        className="text-tapiola-green-dark"
+                        size={28}
+                      />
                     </div>
-                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">8+</div>
+                    <div className="font-montserrat font-bold text-tapiola-green-dark text-xl">
+                      8+
+                    </div>
                     <div className="text-tapiola-brown text-sm">видов чая</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
+
           {/* Изображения */}
           <div className="relative">
             <div className="relative z-10 ml-10 mb-10">
-              <img 
-                src="https://images.unsplash.com/photo-1531685955171-e85d489ef921?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="Сбор трав в Карелии" 
+              <img
+                src="https://i.imgur.com/gEqUm42.jpg"
+                alt="Сбор трав в Карелии"
                 className="rounded-lg shadow-xl"
               />
               <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-lg max-w-xs">
                 <div className="flex items-center">
-                  <img 
-                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" 
-                    alt="Основатель" 
+                  <img
+                    src="https://i.imgur.com/wZ50Blv.jpg"
+                    alt="Основатель"
                     className="w-12 h-12 rounded-full object-cover mr-4"
                   />
                   <div>
-                    <h4 className="font-montserrat font-medium text-tapiola-gray-dark">Анна Карпова</h4>
-                    <p className="text-tapiola-brown text-sm">Основатель Тапиола</p>
+                    <h4 className="font-montserrat font-medium text-tapiola-gray-dark">
+                      Анна Карпова
+                    </h4>
+                    <p className="text-tapiola-brown text-sm">
+                      Основатель Тапиола
+                    </p>
                   </div>
                 </div>
                 <div className="mt-3 text-sm text-tapiola-brown">
-                  "Мы создаем не просто чай, а настоящий карельский опыт в каждой чашке."
+                  "Мы создаем не просто чай, а настоящий карельский опыт в
+                  каждой чашке."
                 </div>
               </div>
             </div>
-            
+
             <div className="absolute top-10 right-10 w-3/4 h-3/4 bg-tapiola-green/10 rounded-lg -z-10" />
-            
-            <img 
-              src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
-              alt="Процесс производства чая" 
+
+            <img
+              src="https://i.imgur.com/Jp56lVA.jpg"
+              alt="Процесс производства чая"
               className="absolute bottom-0 right-0 w-48 h-48 object-cover rounded-lg shadow-lg border-4 border-white"
             />
           </div>

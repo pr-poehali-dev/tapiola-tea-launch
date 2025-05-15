@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Фоновое изображение */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1546848760-0c6bf3a70509?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" 
+          src="https://i.imgur.com/E1gGaGC.jpg" 
           alt="Карельский пейзаж" 
           className="w-full h-full object-cover object-center opacity-30"
         />
@@ -38,19 +38,19 @@ export default function Hero() {
             <div className="flex items-center mt-8 space-x-4">
               <div className="flex -space-x-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" 
+                  src="https://i.imgur.com/uLkNrr5.jpg" 
                   alt="Покупатель" 
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" 
+                  src="https://i.imgur.com/eZmrYkP.jpg" 
                   alt="Покупатель" 
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" 
+                  src="https://i.imgur.com/AJ8I9s9.jpg" 
                   alt="Покупатель" 
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
               </div>
               <div>
@@ -71,13 +71,13 @@ export default function Hero() {
             <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-tapiola-green/20 rounded-full" />
             
             <img 
-              src="https://images.unsplash.com/photo-1536304575888-ccb70eeef59b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="https://i.imgur.com/SnL3VfA.jpg" 
               alt="Травяной чай Тапиола" 
               className="relative z-10 rounded-lg shadow-2xl max-w-md mx-auto transform -rotate-3"
             />
             
             <img 
-              src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+              src="https://i.imgur.com/0Yx5Lvf.jpg" 
               alt="Карельские травы" 
               className="absolute bottom-12 -left-12 w-48 h-48 object-cover rounded-lg shadow-xl transform rotate-6 z-20 border-4 border-white"
             />

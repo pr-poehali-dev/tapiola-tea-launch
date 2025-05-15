@@ -19,7 +19,21 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        rubik: ['Rubik', 'sans-serif'],
+      },
       colors: {
+        'tapiola-green': {
+          DEFAULT: '#6E845C',
+          'dark': '#4A5A3D',
+        },
+        'tapiola-cream': '#F5EFE0',
+        'tapiola-brown': '#6B5B4D',
+        'tapiola-gray': {
+          DEFAULT: '#8A8A8A',
+          'dark': '#3D3D3D',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -53,24 +67,6 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
-        // Тапиола цвета
-        tapiola: {
-          'green-dark': '#6E845C',
-          'green': '#8CA581',
-          'cream': '#F5EFE0',
-          'brown': '#57392B',
-          'gray-dark': '#3D3D3D',
-        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -86,28 +82,14 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "fade-in": {
-          "0%": { opacity: "0", transform: "translateY(10px)" },
-          "100%": { opacity: "1", transform: "translateY(0)" }
-        },
-        "fade-out": {
-          "0%": { opacity: "1", transform: "translateY(0)" },
-          "100%": { opacity: "0", transform: "translateY(10px)" }
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "fade-in": "fade-in 0.5s ease-out",
-        "fade-out": "fade-out 0.5s ease-out",
-      },
-      fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        rubik: ['Rubik', 'sans-serif'],
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require('@tailwindcss/typography')],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
 
 export default config;
